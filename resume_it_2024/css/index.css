@@ -1,0 +1,391 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #023d8c;
+}
+
+a:hover {
+    color: #1964c9;
+}
+
+.wrapper {
+    margin-top: 10px;
+    width: 850px;
+    height: 1500px;
+    border: 2px solid #eeeeee;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-part {
+    width: 35%;
+    background: #afcbf0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.profile-photo {
+    margin-top: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.main-info {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.main-info p.fio {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-info p.position {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main-info hr {
+    width: 80px;
+    height: 3px;
+    background-color: #eeeeee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-location span {
+    font-size: 13px;
+}
+
+.main-location img {
+    width: 15px;
+    height: 15px;
+}
+
+.contact-info {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.contact-header {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 40px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-header img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.contact-header span {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.contact-items {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.contact-item {
+    padding: 5px;
+}
+
+.contact-item img {
+    width: 14px;
+    height: 14px;
+}
+
+.contact-item span {
+    font-size: 15px;
+}
+
+.contact-items hr {
+    background: #FAFAFA;
+}
+
+.language-info {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.language-header {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.language-header img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.language-header span {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.language-items {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.language-item {
+    display: flex;
+}
+
+.language-name {
+    margin-left: 5px;
+    width: 40%;
+}
+
+.language-level img {
+    width: 15px;
+    height: 15px;
+}
+
+.language-level span {
+    font-size: 13px;
+}
+
+.skill-info {
+    margin-top: 20px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.skill-header {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-header img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.skill-header span {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.right-part {
+    width: 65%;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
+.experience-info {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.experience-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.experience-header img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.experience-header span {
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.experience-items hr {
+    height: 2px;
+    background: #afcbf0;
+}
+
+.experience-item {
+    margin-top: 10px;
+}
+
+.company-info {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.company-name {
+    margin: 0;
+}
+
+.company-date {
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.company-position {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.company-responsibility {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.education-info {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.education-header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.education-header img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.education-header span {
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.education-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-name span {
+    margin: 0;
+}
+
+.education-level {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.courses-info {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.courses-header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.courses-header img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.courses-header span {
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.courses-item hr {
+    height: 2px;
+    background: #afcbf0;
+}
+
+.about-info {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.about-header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.about-header img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.about-header span {
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.about-content {
+    font-style: italic;
+}
